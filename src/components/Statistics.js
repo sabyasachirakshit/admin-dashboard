@@ -1,5 +1,5 @@
 import React from "react";
-
+import DonutChart from "./Donutchart.js";
 function Statistics() {
   return (
     <div
@@ -100,6 +100,18 @@ function Statistics() {
             <span>$198K</span>
             <span>37.8% this month</span>
           </div>
+        </div>
+      </div>
+      <div className="stats-2" style={{ display: "flex", width: "100%" }}>
+        <div
+          className="pie-div"
+          style={{
+            backgroundColor: "white",
+            display: "flex",
+            flexDirection: "column",
+          }}
+        >
+          <DonutChart />
         </div>
       </div>
     </div>
