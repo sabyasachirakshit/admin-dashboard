@@ -1,8 +1,11 @@
 .el{
-    background-color: black;
     width: 90%;
     height: 40px;
     border-radius: 12px;
     display: flex;
     justify-content: space-between;
+}
+
+.el:hover{
+    background-color: grey;
 }
