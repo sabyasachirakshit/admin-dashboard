@@ -14,6 +14,7 @@ function App() {
         className="ui"
         style={{
           display: "flex",
+          gap: 30,
           flexDirection: "column",
           width: "-webkit-fill-available",
         }}
